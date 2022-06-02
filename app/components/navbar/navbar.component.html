@@ -1,0 +1,27 @@
+<nav class="navbar navbar-expand ">
+  <a class="navbar-brand" href="#"><img src="assets/img/disney-logo.png" class="disney" alt="logo-disney" width="140px"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active" *ngFor="let item of navItems">
+        <a class="nav-link" [routerLink]="item.path">{{item.name}}</a>
+        <ul *ngIf="item.subItems">
+          <li *ngFor="let subitem of item.subItems">
+           <a href="">{{subitem.name}}</a>
+          </li>
+        </ul>
+      </li>
+
+
+
+    </ul>
+
+  </div>
+</nav>
+
+<img src="assets/img/Buzz.jpg" alt="Buzz">
+
+<a href=""><img class="logo" src="assets/img/Buzz-logo.png" alt="logo"></a>

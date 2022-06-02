@@ -1,0 +1,70 @@
+nav{
+  background-color: #fff;
+  padding: 30px 170px 20px 130px ;
+//nav Items
+  ul{
+   position: relative;
+
+    li{
+      text-transform: uppercase;
+      font-weight: 500;
+      padding: 10px;
+      &:hover{
+        ul{display: block;}
+      }
+      a{
+        color: #000;
+        letter-spacing: 1px;
+
+      }
+    }
+    ul{
+      width: 35%;
+      padding: 35px;
+      padding-left: 4px;
+      display: none;
+      position: absolute;
+      z-index: 1;
+      background-color: rgb(71, 71, 71);
+      animation: fadeInSubItem 0.3s ease-in-out;
+
+     li{
+       list-style-type:none ;
+       padding: 2px;
+       a{
+        text-align: center;
+        color: #fff;
+        text-decoration: none;
+        &:hover{
+          color: #909090;
+          transition: 0.2s ease-in-out;
+        }
+       }
+     }
+   }
+   }
+  @keyframes fadeInSubItem {
+    from{
+      opacity: 0;
+      margin-top: 10px;
+    }
+
+    to{
+      opacity: 1;
+      margin-bottom: 0px;
+    }
+  }
+  }
+
+img{
+  position: absolute;
+}
+ img.logo{
+    position:absolute;
+    top: 50%;
+    left: 10%;
+  }
+
+.disney{
+  bottom: 15px;
+}
