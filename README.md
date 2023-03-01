@@ -1,4 +1,4 @@
-# Estiliza-ao-SiteDisney
+# Estilizacao-SiteDisney
 Uma copia estilizada feita através do Angular, utilizando SCSS e Bootstrap.
 
 Uma copia do site:https://www.pixar.com/ algumas modificações.
